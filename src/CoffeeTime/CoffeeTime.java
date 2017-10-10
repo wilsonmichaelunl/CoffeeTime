@@ -10,11 +10,17 @@ import java.text.DateFormat;
 public class CoffeeTime {
 	public static void main(String[] args) throws ParseException {
 		Scanner scan = new Scanner(System.in);
+		
+		//These next three lines take in the current time
+		DateFormat df = new SimpleDateFormat("HH:mm");
+		Date dateobj = new Date();
+		String timeNow = (df.format(dateobj));
 
 		/*
 		System.out.println("What time is it now? Please enter in HH:mm format.");
 		String timeNow = scan.nextLine();
 		*/
+
 		System.out.println("What time would you like your coffee made? Please enter in HH:mm format.");
 		String endTime = scan.nextLine();
 		System.out.println("");
