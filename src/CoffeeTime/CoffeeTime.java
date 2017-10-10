@@ -21,6 +21,7 @@ public class CoffeeTime {
 		String timeNow = scan.nextLine();
 		*/
 
+		//This takes what time you want coffee to be made
 		System.out.println("What time would you like your coffee made? Please enter in HH:mm format.");
 		String endTime = scan.nextLine();
 		System.out.println("");
