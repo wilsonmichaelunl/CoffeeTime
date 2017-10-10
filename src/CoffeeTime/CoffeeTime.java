@@ -16,7 +16,7 @@ public class CoffeeTime {
 		Date dateobj = new Date();
 		String timeNow = (df.format(dateobj));
 
-		/*
+		/* This is old code that manually took in time input from user
 		System.out.println("What time is it now? Please enter in HH:mm format.");
 		String timeNow = scan.nextLine();
 		*/
@@ -63,4 +63,4 @@ public class CoffeeTime {
 		scan.close();
 		
 	}
-}
+}	
