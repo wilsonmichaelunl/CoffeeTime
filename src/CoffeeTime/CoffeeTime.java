@@ -25,7 +25,8 @@ public class CoffeeTime {
 		System.out.println("What time would you like your coffee made? Please enter in HH:mm format.");
 		String endTime = scan.nextLine();
 		System.out.println("");
-		
+
+		//Will add comment about functionality in future		
 		SimpleDateFormat format = new SimpleDateFormat("HH:mm");
 		Date date1 = format.parse(timeNow);
 		Date date2 = format.parse(endTime);
