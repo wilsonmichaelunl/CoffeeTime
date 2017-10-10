@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 import java.text.DateFormat;
-
+//This program is meant to correct Hamilton-Beach Coffee Maker Time
 public class CoffeeTime {
 	public static void main(String[] args) throws ParseException {
 		Scanner scan = new Scanner(System.in);
