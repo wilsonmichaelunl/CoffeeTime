@@ -35,6 +35,16 @@ total_minutes = machine_in_minutes + minutes_ahead
 
 new_hours = total_minutes / 60
 new_minutes = total_minutes % 60
+new_minutes = sprintf '%02d', new_minutes
+
+if new_hours > 23
+  new_hours = new_hours - 24
+  if new_hours == 24
+    new_hours = 00
+  end
+end
+
+new_hours = sprintf '%02d', new_hours
 
 puts "Set your coffee maker to make coffee at: #{new_hours}:#{new_minutes}"
 
